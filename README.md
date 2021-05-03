@@ -1,1 +1,1 @@
-# curso-js
+# curso-js curso em vídeo
