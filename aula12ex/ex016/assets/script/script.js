@@ -15,7 +15,7 @@ function verificar() {
         img.setAttribute('id', 'foto')
 
         if (fsex[0].checked) {
-            gênero = 'homen'
+            gênero = 'Homem'
 
             if (idade >= 0 && idade <= 10) { img.setAttribute('src', './assets/img/bebe-m.png') }
 
@@ -28,7 +28,7 @@ function verificar() {
 
 
         else if (fsex[1].checked) {
-            gênero = 'mulher'
+            gênero = 'Mulher'
 
             if (idade >= 0 && idade <= 10) { img.setAttribute('src', './assets/img/bebe-f.png') }
 
